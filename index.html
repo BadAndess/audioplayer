@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="https://fonts.googleapis.com/css?family=Dela+Gothic+One:regular" rel="stylesheet" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player</title>
+<link rel="shortcut icon" href="./assets/icons/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <main class="main">
+            <div class="player">
+                <div class="title">Bad <span class="span"> $ </span>Player</div>
+                <div class="cover"><img src="./assets/img/cover4.jpg" alt="cover" class="cover__img"></div>
+                <div class="song">I'm not good</div>
+                <audio class="audio" src="./assets/audio/amy-winehouse-you-know-im-no-good.mp3"></audio>
+                <div class="progress__container">
+                    <div class="progress"></div>
+                </div>
+                <div class="buttons">
+                    <div class="btn prev"><img src="./assets/icons/backward.png" alt="btn"></div>
+                    <div class="btn play"><img class="img__src" src="./assets/icons/play.png" alt="btn"></div>
+                    <div class="btn next"><img src="./assets/icons/forward.png" alt="btn"></div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__wrapper">
+                <p class="github">
+                    <a href="https://github.com/BadAndess"><img src="./assets/icons/github.png" class="footer__img" alt="github"></a>
+                </p>
+                <p class="year">2023</p>
+                <p class="rs">
+                    <a href="https://rs.school/js-stage0/"><img src="./assets/icons/rs_school_js.svg" class="footer__img" alt="RS"></a>
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
